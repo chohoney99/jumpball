@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+#product {
+    width: 1200px; height: 800px;
+    margin: 0 auto;
+}
+#imgbox {
+    width: 800px; height: 600px;
+    float: left;
+    margin: 0 auto;
+}
+.viewimg img {
+    margin-left: 50px;
+    width: 700px; height: 700px;
+}
+.viewimg img[alt="bottom"] {
+    display: none;
+}
+.viewimg img[alt="top"] {
+    display: none;
+}
+.viewimg img[alt="back"] {
+    display: none;
+}
+.selectimg img {
+    width: 95px; height: 95px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.selectimg img:hover {
+    border: 1px solid #ee8e1e;
+    border-radius: 5px;
+}
+.preside {
+    margin-left: 190px;
+}
+.prebottom, .pretop, .preback {
+    margin-left: 10px;
+}
+#select {
+    width: 400px; height: 600px;
+    float: left;
+    margin: 0 auto;
+}
+#select h1 {
+    font-size: 45px;
+    margin: 10px 0 10px;
+    font-family: 'Cairo', sans-serif;
+}
+#select h2 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+#select p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Abel', sans-serif;
+}
+#select .ss {
+    float: left;
+}
+#select .sg {
+    margin-left: 250px;
+}
+#select .sg a {
+    color: #999;
+}
+#select .sg a:hover {
+    color: #333;
+}
+#selectsize {
+    width: 400px; height: 200px;
+    clear: both;
+}
+#selectsize button {
+    width: 80px; height: 60px;
+    background-color: aliceblue;
+    float: left;
+    font-size: 18px;
+    color: #333;
+    margin: 0 5px 5px 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#selectsize button:hover {
+    background-color: mediumpurple;
+    color: white;
+    opacity: 0.7;
+}
+#selectsize button:active, #selectsize button.active {
+    background-color: mediumpurple;
+    color: white;
+}
+.atc {
+    width: 200px; height: 50px;
+    background-color: mediumpurple;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.atc:hover {
+    opacity: 0.9;
+}
+#select .price {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0 0 50px;
+    color: #555;
+}
+#select table {
+    width: 400px; height: 100px;
+    margin-top: 50px;
+}
+#select table a {
+    font-weight: bold;
+    color: #666;
+}
+#select table a:hover {
+    color: #888;
+}
+
+#description {
+    width: 1200px; height: auto;
+    margin: 0 auto;
+}
+.pnav {
+    margin-top: 50px;
+}
+.pnav button {
+    height: 50px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pnav button:hover {
+    background-color: #444;
+    color: white;
+}
+.pnav button:active, .pnav button.active {
+    background-color: #444;
+    color: white;
+}
+.des {
+    width: 1200px; height: 700px;
+}
+.des h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.des1 {
+    width: 700px;
+    float: left;
+}
+.des1 p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+} 
+.des table {
+    width: 700px;
+    text-align: left;
+}
+.size {
+    display: none;
+    height: 1000px;
+}
+.size span {
+    color: #ee8e1e;
+}
+.size h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+.size img {
+    width: 180px; height: 180px;
+    float: left;
+}
+.size .measure {
+    margin: 20px 0 0 200px;
+}
+.size li {
+    list-style-type: decimal;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.size h2:nth-of-type(2) {
+    clear: both;
+    margin: 50px 0 10px 0;
+}
+.size table {
+    width: 800px; height: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+.size table tr:nth-child(odd) {
+    background-color: #eee;
+}
+.size table tr:hover:not(:first-of-type) {
+    background-color: #ee8e1e;
+    color: white;
+}
+.size table th {
+    border: 1px solid #999;
+}
+.size table td {
+    width: 100px;
+}
+.size table th:nth-last-of-type(5) {
+    width: 300px;
+}
+.size table td {
+    border: 1px solid #999;
+}
+.sr {
+    display: none;
+}
+.sr p {
+    line-height: 20px;
+}
+.sr .fs {
+    width: 600px; height: 200px;
+}
+.sr .fsi {
+    float: left;
+    margin-right: 10px;
+}
+.sr .fst {
+    padding-top: 40px;
+}
+.sr .fst p {
+    margin-bottom: 10px;
+}
+.sr a {
+    text-decoration: underline;
+}
+.sr a:hover {
+    opacity: 0.9;
+}
+.sr h2 {
+    color: #333;
+}
+.sr .rt {
+    width: 750px; height: 350px;
+}
+.sr .sar {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rt .rti {
+    float: left;
+    margin-right: 10px;
+    height: 300px;
+}
+.rt .rtt {
+    padding-top: 20px;
+}
+.rt .rtt p {
+    margin-bottom: 10px;
+}
+.rv {
+    display: none;
+    height: 500px;
+}
+.rv table {
+    width: 100%;
+}
+.rv table .review {
+    font-size: 25px;
+    text-align: left;
+}
+.rv table .more {
+    font-size: 12px;
+}
+.more a:hover {
+    text-decoration: underline;
+}
+.rv table tr:nth-of-type(2) {
+    font-weight: bold;
+}
+.rv table td:nth-of-type(1) {
+    width: 600px;
+}
+.rv table td {
+    text-align: center;
+    width: 150px; height: 50px;
+}
+.rv table .post:hover {
+    text-decoration: underline;
+}
+.rv .page {
+    padding-top: 30px;
+    text-align: center;
+}
+.page a {
+    margin: 0 10px;
+    font-size: 20px;
+}
+.page a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+#shoes {
+    width: 1200px; height: 1850px;
+    margin: 0 auto;
+}
+.shoes {
+    width: 1200px; height: 1500px;
+}
+#shoes h1 {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+#shoes ul {
+    display: flex;
+    margin-left: 250px;
+    border-bottom: 1px solid #333;
+}
+#shoes ul li {
+    margin: 0 20px 5px;
+}
+#shoes ul li a:hover {
+    color: #888;
+}
+#shoes .search {
+    width: 100%;
+}
+#shoes .sortselect {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+#shoes .sortselect:focus {
+    outline: none;
+}
+#shoes input[type="search"] {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    position: absolute;
+    right: 70px;
+}
+#shoes input[type="search"]:focus {
+    outline: none;
+}
+#shoes .searchbar {
+    float: right;
+    position: relative;
+}
+#shoes .searchbar button {
+    width: 30px; height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    position: absolute;
+    right: 35px;
+}
+#shoes .searchbar button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+#shoes .searchbar img {
+    width: 20px; height: 20px;
+    opacity: 0.8;
+}
+#shoes .sortselect:active, #shoes input[type="search"]:active {
+    border: 1px solid #999;
+}
+#shoes div {
+    float: left;
+    margin: 10px;
+}
+#shoes .shoes img {
+    transition: all 0.7s ease;
+    width: 280px; height: 280px;
+}
+#shoes .shoes img:hover {
+    transform: scale(1.1);
+}
+.pn {
+    font-size: 12pt;
+    margin: 10px 0 0;
+}
+.pn a:hover {
+    text-decoration: underline;
+}
+.pn span {
+    color: green;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 5px;
+}
+a:hover span {
+    text-decoration: underline green;
+}
+.page {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.page a {
+    margin: 0 10px;
+    font-size: 20px;
+}
+.page a:hover {
+    text-decoration: underline;
+}

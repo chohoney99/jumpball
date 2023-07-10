@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    width: 100%; height: 300px;
+    background-color: lightsteelblue;
+}
+#headui {
+    width: 1200px; height: 500px;
+    margin: 0 auto;
+}
+#login {
+    float: right;
+    margin-top: 30px;
+}
+#login li {
+    float: left;
+    margin: 10px 5px;
+    font-size: 10pt;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#login li a {
+    color: white;
+    font-weight: bold;
+}
+#login li a:hover {
+    text-decoration: underline;
+}
+#logo {
+    float: left;
+    margin-top: 150px;
+}
+#nav {
+    float: left;
+    margin: 95px 0 0 40px;
+}
+#nav li {
+    float: left;
+    margin: 0 30px;
+    font-size: 24pt;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+#nav li a {
+    color: white;
+}
+#nav li a:hover {
+    color: #b11016;
+    transition: 0.3s;
+}
+
+footer {
+    width: 100%; height: 400px;
+    background-color: lightsteelblue;
+    padding-top: 30px;
+}
+footer p, footer h2 {
+    color: #444;
+}
+#footui {
+    width: 1200px;
+    margin: 0 auto;
+}
+#footui h2 {
+    margin: 30px 0 10px;
+}
+#footui li {
+    font-size: 14pt;
+    line-height: 40px;
+    list-style-type: square;
+    margin-left: 20px;
+}
+.info {
+    width: 350px;
+    float: left;
+}
+.info img {
+    margin: 25px 0 10px;
+}
+.info p {
+    font-size: 12pt;
+    line-height: 35px;
+}
+.cs {
+    width: 275px;
+    float: left;
+}
+.cs li, .cs a {
+    color: #444;
+}
+.cs li:hover, .cs li:hover a{
+    color: white;
+}
+.ao {
+    width: 225px;
+    float: left;
+}
+.ao li, .ao a {
+    color: #444;
+}
+.ao li:hover, .ao li:hover a{
+    color: white;
+}
+.news {
+    width: 350px;
+    float: left; 
+    color: #444;
+    position: relative;
+}
+.news p {
+    font-size: 14pt;
+}
+.news a {
+    text-decoration: underline;
+    color: #444;
+}
+.news a:hover {
+    color: white;
+}
+
+.newsemail {
+    position:relative;
+    padding-top: 30px;
+}
+.news .email {
+    width: 350px; height: 50px;
+    margin: 0px 0 10px; padding-left: 10px;
+    font-size: 14pt;
+    border: none;
+}
+.news .email:focus {
+    outline: none;
+}
+.news button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    width: 70px; height: 40px;
+    color: #fff;
+    font-size: 14pt;
+    position: absolute;
+    top: 35px; right: 5px;
+}
+.news button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

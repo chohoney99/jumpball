@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+#headslider {
+    width: 100%; height: 100%;
+    margin: 0 auto;
+}
+#headslider img {
+    width: 100%; height: 100%;
+}
+#shoes {
+    width: 100%; height: 920px;
+}
+.shoes {
+    width: 1200px; height: 890px;
+    margin: 30px auto;    
+}
+.shoes h1 {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+}
+.shoes div {
+    float: left;
+    margin: 10px;
+}
+.shoes img {
+    transition: all 0.7s ease;
+}
+.shoes img:hover {
+    transform: scale(1.1);
+}
+.pn {
+    font-size: 12pt;
+    margin: 10px 0 0;
+}
+.pn a:hover {
+    text-decoration: underline;
+}
+.pn span {
+    color: green;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 5px;
+}
+a:hover span {
+    text-decoration: underline green;
+}
+.shoes button {
+    display: block;
+    margin: 780px auto 0;
+    width: 200px; height: 50px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 14pt;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+}
+#slider {
+    width: 100%; height: 100%;
+    margin: 0 auto;
+}
+#slider img {
+    width: 100%; height: 100%;
+}
+#balls {
+    width: 100%; height: 1000px;
+}
+.balls {
+    width: 1200px; height: 840px;
+    margin: 30px auto;
+}
+.balls h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 1px;
+}
+.balls div {
+    float: left;
+    margin: 10px;
+}
+.balls img {
+    transition: all 0.7s ease;
+}
+.balls img:hover {
+    transform: scale(1.1);
+}
+.bn {
+    font-size: 12pt;
+    margin: 10px 0 0;
+}
+.bn a:hover {
+    text-decoration: underline;
+}
+.bn span {
+    color: green;
+    font-size: 12pt;
+    display: inline-block;
+    margin-top: 5px;
+}
+.balls button {
+    display: block;
+    margin: 850px auto 0;
+    width: 200px; height: 50px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 14pt;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+}
+#banner {
+    width: 100%; height: 2500px;
+    background-color: #333;
+}
+.banner {
+    width: 1500px; height: 2500px;
+    background-image: url("../img/main/banner.png");
+    margin: 0 auto;
+}
+.lebron {
+    float: left;
+    margin: 400px 0 200px 150px;
+}
+.lebron img {
+    border-radius: 15px;
+}
+.lebron a {
+    color: #ddd;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Arvo', serif;
+    letter-spacing: 1px;
+}
+.lebron a:hover {
+    color: #fff;
+}
+.curry {
+    float: right;
+    margin: 400px 150px 200px 0;
+}
+.curry img {
+    border-radius: 15px;
+}
+.curry a {
+    color: #ddd;
+    font-size: 30px;
+    text-decoration: underline;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.curry a:hover {
+    color: #fff;
+}
+.nba {clear: both;
+    margin: 0 150px;
+}
+.nba img {
+    width: 1200px;
+    border-radius: 15px;
+}
+.nba a {
+    color: #ddd;
+    font-size: 30px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-family: 'Abel', sans-serif;
+}
+.nba a:hover {
+    color: #fff;
+}
